@@ -20,7 +20,8 @@ This script works with certificates from any provider – whether it's Let’s E
 ## Requirements
 
 - [OCI CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm) installed and configured.
-- A valid OCI IAM policy that allows managing certificates in your chosen compartment.
+- A valid [OCI IAM policy](https://docs.oracle.com/en-us/iaas/Content/certificates/managing-certificates.htm#certs_required_iam_policy)
+ that allows managing certificates in your chosen compartment.
 - Certificate files on your system (for example, from Let’s Encrypt, Sectigo, or any other provider).
 
 By default, the script assumes a directory structure like this for the certificate files (compatible with Let’s Encrypt):
