@@ -7,7 +7,7 @@ This script works with certificates from any provider – whether it's Let’s E
 
 ---
 
-## 🔧 What This Script Does
+## What This Script Does
 
 - Reads a certificate (`fullchain.pem`) and private key (`privkey.pem`) from your local file system.
 - Checks if a certificate for the given domain already exists in OCI:
@@ -17,7 +17,7 @@ This script works with certificates from any provider – whether it's Let’s E
 
 ---
 
-## ✅ Requirements
+## Requirements
 
 - [OCI CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm) installed and configured.
 - A valid OCI IAM policy that allows managing certificates in your chosen compartment.
@@ -35,7 +35,7 @@ Make sure your certificate and key files are located in a similar structure or a
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 Run the script by passing your domain name as an argument. For example:
 
@@ -56,7 +56,7 @@ If these files exist, it will check OCI Certificate Management Service for a cer
 
 ---
 
-## 🔄 Automating Every 30 Days
+##  Automating Every 30 Days
 
 To automate the certificate upload/update with cron, open your crontab for editing:
 
@@ -74,12 +74,12 @@ Adjust the path to your script and logging location as needed.
 
 ---
 
-## 🔐 OCI IAM Policy Required
+## OCI IAM Policy Required
 
-Ensure that the OCI user or group running the script has permissions such as:
+Ensure that the OCI user or group running the script has permissions.Refer the link below.
 
 ```
-ALLOW GROUP <your-group> TO MANAGE certificates IN compartment <your-compartment>
+[https://docs.oracle.com/en-us/iaas/Content/certificates/managing-certificates.htm#certs_required_iam_policy]
 ```
 
 This includes permissions like `CERTIFICATE_INSPECT`, `CERTIFICATE_CREATE`, and `CERTIFICATE_UPDATE`.
