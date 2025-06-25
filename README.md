@@ -25,4 +25,6 @@ This works with certificates from **any provider** – Let’s Encrypt, Sectigo,
 - Valid certificate and private key files on disk.
 
 By default, the script assumes the following directory structure (compatible with Let's Encrypt):
-
+/etc/letsencrypt/live/yourdomain.com/
+├── fullchain.pem
+└── privkey.pem
