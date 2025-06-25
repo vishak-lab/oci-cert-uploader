@@ -1,7 +1,7 @@
 
 # oci-cert-uploader
 
-A simple script to **import or update SSL certificates** into **Oracle Cloud Infrastructure (OCI) Certificate Management Service**.
+A simple script to **import or update TLS/SSL certificates** into **Oracle Cloud Infrastructure (OCI) Certificate Management Service**.
 
 This script works with certificates from any provider – whether it's Let’s Encrypt, Sectigo, DigiCert, or another CA.
 
