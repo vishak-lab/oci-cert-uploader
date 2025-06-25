@@ -86,7 +86,7 @@ This includes permissions like `CERTIFICATE_INSPECT`, `CERTIFICATE_CREATE`, and 
 
 ---
 
-## 📦 Sample Output
+## Sample Output
 
 Depending on whether the certificate exists, you might see:
 
@@ -104,7 +104,7 @@ Done!
 
 ---
 
-## 💼 Use Cases
+##  Use Cases
 
 - Automatically uploading renewed certificates from Let’s Encrypt to OCI.
 - Importing manually obtained certificates (from Sectigo, DigiCert, etc.) into OCI.
@@ -112,7 +112,7 @@ Done!
 
 ---
 
-## 🙌 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork this project and enhance the script for:
 - Multiple domain support
