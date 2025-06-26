@@ -9,7 +9,7 @@ This script works with certificates from any provider – whether it's Let’s E
 
 ## What This Script Does
 
-- Reads a certificate (`fullchain.pem`) and private key (`privkey.pem`) from your local file system.
+- Reads a certificate (`chain.pem`),(`cert.pem`) and private key (`privkey.pem`) from your local file system.
 - Checks if a certificate for the given domain already exists in OCI:
   - If it exists, updates the certificate.
   - If it does not exist, creates a new certificate entry.
