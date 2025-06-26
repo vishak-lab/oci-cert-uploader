@@ -94,6 +94,8 @@ Existing cert found. Updating cert: yourdomain.com-cert
 Done!
 ```
 
+
+![Cert Uploader](output.png)
 ---
 
 ##  Use Cases
