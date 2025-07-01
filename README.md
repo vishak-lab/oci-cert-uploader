@@ -1,4 +1,3 @@
-
 # oci-cert-uploader
 
 A simple script to **import or update TLS/SSL certificates** into **Oracle Cloud Infrastructure (OCI) Certificate Management Service**.
